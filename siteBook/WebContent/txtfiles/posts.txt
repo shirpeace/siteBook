@@ -1,0 +1,1 @@
+[{"user":"Alex Shir","post":"Have a nice day!"},{"user":"Alex Shir","post":"Today is awsome"},{"user":"Alex Shir","post":"Gray clouds"},{"user":"Alex Shir","post":"It is so cold at the university!"},{"user":"Alex Shir","post":"Web based systems"},{"user":"Alex Shir","post":"have a good night!"}]

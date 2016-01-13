@@ -1,0 +1,588 @@
+@CHARSET "utf-8";
+html {
+    overflow-y: hidden; 
+}
+/**********************index main*********************************/
+/**********************navigation menu****************************/
+nav {
+  
+    background-color:#2B3856;
+    font-size: 130%;
+    font-family: Arial;
+    width: 1370px;
+   position: fixed;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #566D7E;
+    position: fixed;
+    width:1400px;
+    
+    
+  
+}
+
+li {
+    float: left;
+	
+   
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.userName{
+	margin-left:50px;
+	margin-top:20px;
+}
+
+.search{
+	background: url('../pics/search_logo.png') no-repeat;
+	margin-left: 180px;
+	margin-top: 20px;
+	 display: inline-block;
+	 width: 15%;
+	 
+    vertical-align: middle;
+   background-position: 95% .4em;
+   padding-right: .6em;
+	
+	
+}
+
+.home{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.profile{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.messages{
+	background: url('../pics/message_logo.png') no-repeat;
+	margin-left: 45px;
+	margin-top: 20px;
+	display: inline-block;
+	width: 12%;
+    vertical-align: middle;
+	
+	
+}
+
+
+.nots{
+	background: url('../pics/nots_logo.png') no-repeat;
+	margin-left: 40px;
+	margin-top: 20px;
+	 display: inline-block;
+	 width: 12%;
+    vertical-align: middle;
+}
+.log{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: #111;
+}
+.drop1{
+	width: 300px;
+	display: inline-block;
+	 padding: 0;
+    margin: 0;
+   
+}
+
+.drop2{
+	width: 300px;
+	display: inline-block;
+	
+	
+}
+.liMes{
+	margin-left: 10px;
+	float: left;
+    clear: left;
+    font-size: 90%;
+
+    
+}
+.drop3{
+	width: 180px;
+	display: inline-block;
+
+	background: #95B9C7;
+	overflow: scroll;
+	
+}
+.drop3Links{
+	margin-left: 10px;
+	float: left;
+    clear: left;
+    font-size: 90%;
+    color: black;
+
+    
+}
+
+
+/****************************footer***********************/
+#footer {
+    background-color:#909ebb;
+    color:black;
+    text-align:center;
+    padding:0px;
+    position: fixed;
+    bottom: 0;
+    width: 110%;
+    float: left;
+    margin-left: -20px;
+}
+
+
+/*****************************user input div**********************/
+.writeText{
+	width: 300px;
+	height: 25px;
+	margin-left: 350px;
+	margin-top: 30px;
+	 
+	
+}
+.writeLabel{
+	margin-top: 65px;
+	margin-left: 350px;
+	font-size: 150%;
+	font-family: Arial;
+	border-left: 1px solid black;
+	width: 60%;
+	height: 100%;
+	line-height: 0px;
+	
+	text-align: left;
+	display: inline-block;
+	display : flex;
+	vertical-align:top;
+	position: fixed;
+	
+}
+
+.theLabel{
+	margin-left: 70px;
+	margin-top: 50px;
+	position: fixed;
+}
+
+.btn{
+	margin-top: 29px;
+	margin-left: 10px;
+	font-size: 90%;
+	font-family: Arial;
+	color: white;
+	background-color: #357EC7;
+	border-color: black;
+	position: fixed;
+	border-radius: 5px;
+}
+.wrapDiv1{
+	overflow: hidden;
+	
+}
+
+/*******************************online friends**********************/
+.onFriends{
+	margin-top: 90px;
+	margin-left: 0px;
+	font-size: 140%;
+	font-family: Arial;
+	width: 350px;
+	height: 100%;
+	border-right: 1px solid black;
+	text-align: center;
+	overflow: hidden;
+	display: inline-block;
+	float:left;
+	position: fixed;
+}
+.fr_img{
+	margin-right: 10px;
+	margin-top: 0px;
+}
+#friendList{
+	
+	margin-top: 150px;
+	margin-left: 80px;
+	font-size: 120%;
+	font-family: Arial;
+	position: fixed;
+	width: 900px;
+}
+
+/*******************************json output div*********************/
+#textDiv{
+	
+	margin-top: 150px;
+	margin-left: 420px;
+	
+	
+   font-family: Arial;
+   overflow-y: scroll;
+	max-height:500px;
+	height: 50%;
+  
+}
+
+
+
+#table {
+   border-spacing: 20px;
+   border-collapse: separate;
+  
+
+   
+   
+    
+}
+
+#topRow{
+	border-top: thin solid black;
+	background-color: #87AFC7;
+	font-size: 100%;
+	margin-bottom: 10px;
+	display: block;
+	
+	
+}
+
+
+#textRow{
+
+	padding-bottom: 20px;
+	font-size: 100%;
+	
+}
+#commentRow{
+	font-size: 90%;
+	color: #504A4B;
+}
+.likeBtn{
+	color: #848482;
+	padding: 0;
+	border: none;
+	background: none;
+	font-size: 100%;
+	font-weight: bold;
+	background-color: #E5E4E2;
+	
+}
+
+.comBtn{
+	color: #848482;
+	margin-left: 0px;
+	padding: 0;
+	border: none;
+	background: none;
+	font-size: 100%;
+	font-weight: bold;
+	background-color: #E5E4E2;
+	
+}
+.togBtn{
+	color: #848482;
+	margin-top: 0px;
+	padding: 0;
+	border: none;
+	background: none;
+	font-size: 100%;
+	font-weight: bold;
+	 background-color: #E5E4E2;
+	 
+	
+}
+.small-button {
+   font-size: inherit !important;
+   width: 100px;
+  
+}
+
+/*******************************Profile********************************/
+/*******************************friend list****************************/
+
+.friendListTableDiv{
+	margin-left:400px;
+	height: 190px;
+	font-size: 120%;
+	font-family: Arial;
+	color: black;
+	overflow-y: scroll;
+	
+}
+.friendsList{
+	margin-top: 20px;
+	
+}
+
+.flimg{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.ftl{
+	margin-left: 10px;
+	font-weight: bold;
+}
+.fTitleDiv{
+	margin-left:350px;
+    margin-top:350px;
+	font-size: 140%;
+	font-family: Arial;
+	color: black;
+	border: 1px solid black;
+	text-align:left;
+	width: 80%;
+	z-index:1;
+	position:relative;
+}
+.freLinks{
+	color: black;
+}
+#mySmile{
+	margin-left:100px;
+}
+.myLikes{
+	margin-left:640px;
+	position: absolute;
+	z-index:500;
+	
+}
+/************************************images div***************************/
+
+.imagesDiv{
+	border: 1px solid black;
+	height:600px;
+	margin-left: 350px;
+	margin-top: 64px;
+	position:absolute;
+}
+.profpic{
+	border:1px solid black;
+	margin-top: 40px;
+	margin-left: 40px;
+	position:absolute;
+	background-color:#B4CFEC;
+	box-shadow: 8px 8px 5px #726E6D;
+}
+.backpic{
+	
+	z-index: -199;
+	position:absolute;
+	border-bottom: 2px solid black;
+}
+
+/***********************************name***********************************/
+.nameLabel{
+
+	margin-top: 120px;
+	margin-left: 20px;
+	z-index:1000;
+	position:absolute;
+	font-size: 150%;
+	font-weight: bold;
+	font-family: Arial;
+	width: 400px;
+	color: #3B3131;
+}
+
+/*************************************login page*************************/
+.loginBody{
+	font-family: Arial;
+	background-color:white;
+}
+.homeImg{
+	margin-top:85px;
+	margin-left: 30px;
+}
+
+.logForm{
+	margin-top:20px;
+	margin-left: 50px;
+	
+	
+}
+.uLabel{
+	color:white;
+}
+
+.pLabel{
+	color:white;
+	
+}
+.logBtn{
+	margin-left: 20px;
+	font-size: 16px;
+	font-weight:bold;
+	font-family: Arial;
+	background-color:#657383;
+	color:white;
+	border-radius: 5px;
+	
+}
+.loginFormDiv{
+	border: 3px solid #D1D0CE;
+	border-radius: 25px;
+	margin-left: 600px;
+	margin-top: 70px;
+	font-weight: bold;
+	width: 730px;
+	height:500px;
+	position: absolute;
+	color:#504A4B;
+	
+
+}
+
+.logFormTitle{
+		font-family: Verdana,Arial,Sans-serif !important;
+}
+
+.regFormBody{
+	font-family: Arial;
+	cellpadding: 10px;
+	color: inherit !important;
+}
+.formTitle{
+	font-family: Arial;
+}
+.inName{
+	margin-bottom : 20px;
+	margin-left:65px;
+	margin-right: 20px;
+
+}
+.inLName{
+	margin-bottom : 20px;
+	margin-left:68px;
+	margin-right: 20px;
+
+}
+.inUName{
+	margin-bottom : 20px;
+	margin-left:65px;
+	margin-right: 20px;
+
+}
+.inEmail{
+	margin-bottom : 20px;
+	margin-left:105px;
+	margin-right: 20px;
+
+}
+.inPass{
+	margin-bottom : 20px;
+	margin-left:75px;
+	margin-right: 20px;
+
+}
+.confPass{
+	margin-bottom : 20px;
+	margin-right: 20px;
+}
+
+.theLogForm{
+	margin-left:40px;
+	font-family: Verdana,Arial,Sans-serif !important;
+}
+.submitTheFormBtn{
+	margin-top:10px;
+	margin-left:280px;
+	border-radius: 5px;
+	background-color:#657383;
+	color:white;
+	font-weight:bold;
+	font-size: 16px;
+	font-family: Arial;
+}
+.info{
+	color: #F62817;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+/********************************************Some profile*******************************/
+#someProFreLabel{
+	margin-right: 100px;
+	margin-left:10px;
+}
+.smile{
+	margin-top:5px;
+	margin-left: 5px;
+}
+.groupDiv{
+	margin-left:-10px;
+    margin-top:350px;
+	font-size: 140%;
+	font-family: Arial;
+	color: black;
+	border: 1px solid black;
+	text-align:left;
+	width: 360px;
+	height: 41px;
+	z-index:2;
+	position: absolute;
+	
+	
+}
+.groupTitle{
+	margin-left:10px;
+}
+.groupPic{
+	margin-left: 50px;
+	margin-top: 9px;
+}
+.frTable tbody { width:250px;  overflow-y:scroll; display:block;max-height:190px; }
+.frTable thead { display:block; }
+
+.interest1{
+	margin-top:15px;
+	margin-left:20px;
+	
+}
+.interest2{
+	margin-left:40px;
+}
+.interest3{
+	margin-left:40px;
+}
+.interest4{
+	margin-left:40px;
+}
+.contentGroupDiv{
+	margin-left:-10px;
+    margin-top:395px;
+	font-size: 140%;
+	font-family: Arial;
+	color: black;
+	text-align:left;
+	width: 342px;
+	height: 180px;
+	z-index:100;
+	position: absolute;
+	overflow-y: scroll;
+}
+.group1{
+	margin-top:20px;
+	margin-left:20px;
+}
