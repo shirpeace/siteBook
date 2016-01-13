@@ -34,7 +34,7 @@
 %>
 
 <script>
-//tets
+
 $(document).ready(function(){ 
 	 $(".messages").hover(function(){
 		 $('.drop1').show();
