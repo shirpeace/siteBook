@@ -16,6 +16,8 @@
 	response.setHeader("Cache-Control","no-cache");
 	response.setHeader("Cache-Control","no-store");
 	response.setHeader("Pragma","no-cache");
+	
+	
 	response.setDateHeader ("Expires", 0);
 %>
 
@@ -470,7 +472,7 @@ function readText(){
 
 
 <div id="footer">
-<label>Copyright © Alex & Shir</label>
+<label>Copyright Â© Alex & Shir</label>
 </div>
 
 
